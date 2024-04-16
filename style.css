@@ -1,0 +1,157 @@
+html {
+    font-size: 22px;
+    color: seashell;
+}
+
+header {
+    position: fixed;
+    z-index: 10;
+    width: 1300px;
+    border-bottom: 1px solid seashell;
+}
+
+header .content {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 0 10px;
+    height: 69px;
+}
+
+header img {
+    height: 50px;
+}
+
+body {
+    font-family: Helvetica, sans-serif;
+    margin: 0;
+    background-color: black;
+    color: seashell;
+    padding: 0;
+    text-align: center;
+    box-sizing: border-box;
+}
+
+nav ul {
+    display: flex;
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    border: 0;
+}
+
+nav ul a {
+    color: seashell;
+    text-decoration: underline;
+}
+
+nav ul li {
+    margin-right: 10px;
+} 
+
+main {
+    position: relative;
+    top: 70px;
+    padding: 0 50px;
+    margin-bottom: 70px;
+}
+
+.OurMission {
+    width: 1200px;
+    height: 700px;
+    margin-bottom: 80px;
+
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    background-image: url("img-mission-background.jpg");
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+h2 {
+    margin: 0 0 30px;
+}
+
+h4 {
+    margin: 0 0 30px;
+}
+
+.TeaOfTheMonth {
+    width: 1200px;
+    height: 700px;
+
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    /* border: 3px solid; */
+}
+
+.steep1 {
+    width: 1000px;
+    height: 250px;
+    /* border: 2px solid; */
+
+    margin-bottom: 30px;
+    
+    display: flex;
+    justify-content: space-between;
+
+}
+
+.steep2 {
+    width: 1000px;
+    height: 250px;
+    /* border: 2px solid; */
+
+    display: flex;
+    justify-content: center;
+
+}
+
+.steep-img {
+    width: 300px;
+    height: 200px;
+    display: block;
+    margin: 10px;
+}
+
+h4-ateep {
+    margin: 0 0 30px;
+}
+
+
+.location {
+    width: 1200px;
+    height: 500px;
+    margin-bottom: 80px;
+
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    background-image: url(img-locations-background.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+.location-cont {
+    display: flex;
+    justify-content: center;
+}
+
+.city {
+    width: 300px;
+    height: 300px;
+    background-color: black;
+    margin: 0 40px 0 0;
+}
+
+.contact {
+    width: 1200px;
+    height: 200px;
+}
+
+.right p {
+    text-align: left;
+    padding-left: 20px;
+}
